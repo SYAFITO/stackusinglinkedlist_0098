@@ -33,7 +33,7 @@ public:
 
 	// Pop operation: Remove the topmost element from the stack
 	void pop() {
-		if (IsEmpty()) {
+		if (isEmpty()) {
 			cout << "Stack is empty. " << endl;
 		}
 		cout << "Popped value: " << top->data << endl;
@@ -106,7 +106,9 @@ int main() {
 			cout << "Invalid choice. Try again." << endl;
 			break;
 		}
+		cout << endl;
 	}
+	return 0;
 
 
 }
