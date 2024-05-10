@@ -14,7 +14,7 @@ public:
 
 // Stack Class
 class Stack {
-
+private:
 };
 
 
