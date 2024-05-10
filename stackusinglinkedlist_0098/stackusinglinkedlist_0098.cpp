@@ -67,6 +67,7 @@ int main() {
 	Stack stock;
 
 	int choice = 0;
+	int value;
 
 
 }
