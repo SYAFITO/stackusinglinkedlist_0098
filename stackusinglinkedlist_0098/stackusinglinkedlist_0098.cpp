@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
+//NOde class reprenting a single node in the linked list
+class Node {
 
-int main()
-{
-    std::cout << "Hello World!\n";
-}
+};
+
 
 
