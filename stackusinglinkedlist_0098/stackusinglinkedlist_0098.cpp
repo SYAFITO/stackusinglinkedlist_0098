@@ -66,6 +66,9 @@ public:
 int main() {
 	Stack stock;
 
+	int choice = 0;
+
+
 }
 
 
