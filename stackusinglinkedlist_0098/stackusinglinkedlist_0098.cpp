@@ -24,6 +24,15 @@ public:
 
 	// Push operetion: Insert an element onto the top of the stack
 	int push(int value) {
+		Node* newNode = new Node();
+		newNode->data = value;
+		newNode->next = top;
+		cout << "Push value: " << value << endl;
+		return value;
+	}
+
+	// Pop operation: Remove the topmost element from the stack
+	void pop() {
 
 	}
 
